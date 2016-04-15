@@ -10,6 +10,10 @@ alias ....="cd ../../.."
 
 alias http-server='python -m SimpleHTTPServer'
 
+alias chrome="open -a Google\ Chrome $1"
+alias firefox="open -a Firefox $1"
+alias safari="open -a Safari $1"
+
 alias whoch="which"
 
 alias ndoe='node'
