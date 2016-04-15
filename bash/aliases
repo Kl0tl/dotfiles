@@ -11,3 +11,7 @@ alias ....="cd ../../.."
 alias http-server='python -m SimpleHTTPServer'
 
 alias whoch="which"
+
+alias ndoe='node'
+alias dneo='node'
+alias dnoe='node'
