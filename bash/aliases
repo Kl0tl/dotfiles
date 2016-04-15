@@ -15,3 +15,12 @@ alias whoch="which"
 alias ndoe='node'
 alias dneo='node'
 alias dnoe='node'
+
+alias ig="git"
+alias gi="git"
+alias gt="git"
+alias gti="git"
+alias igt="git"
+alias gitc="git"
+alias got="git"
+alias gut="git"
