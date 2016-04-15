@@ -1,4 +1,6 @@
-source_if_readable aliases
+for file in {prompt,aliases}; do
+  source_if_readable $file
+done
 
 export CLICOLOR=1
 export CLICOLOR_FORCE=1
