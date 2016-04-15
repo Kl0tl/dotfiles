@@ -3,3 +3,5 @@ alias sudo="sudo "
 alias ls="ls -GFh"
 
 alias http-server='python -m SimpleHTTPServer'
+
+alias whoch="which"
