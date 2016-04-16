@@ -16,3 +16,5 @@ function checkout {
 for cmd in {node,npm}; do
   sudo ln -si $HOME/dotfiles/bin/$cmd /usr/local/bin/$cmd
 done
+
+npm completion > /usr/local/etc/bash_completion.d/npm

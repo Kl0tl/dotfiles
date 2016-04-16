@@ -11,6 +11,8 @@ export NVM_DIR="$HOME/dotfiles/nvm"
 source_if_readable $NVM_DIR/nvm.sh
 source_if_readable $NVM_DIR/bash_completion
 
+source_if_readable /usr/local/etc/bash_completion.d/npm
+
 function source_if_readable {
   [[ -r $1 ]] && . $1
 }
