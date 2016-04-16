@@ -2,6 +2,12 @@ alias sudo="sudo "
 
 alias ls="ls -GFh"
 
+alias -- -="cd -"
+alias …="cd .."
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+
 alias http-server='python -m SimpleHTTPServer'
 
 alias whoch="which"
