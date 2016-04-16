@@ -1,4 +1,5 @@
 tap 'homebrew/dupes'
+brew 'bash'
 brew 'coreutils'
 brew 'git'
 brew 'grep'
