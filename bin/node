@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+$HOME/dotfiles/nvm/nvm-exec node "$@"

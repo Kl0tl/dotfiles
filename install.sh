@@ -12,3 +12,7 @@ function checkout {
   git clone $1 $HOME/dotfiles/$2 &&
     cd $_ && git checkout `git describe --abbrev=0 --tags`
 }
+
+for cmd in {node,npm}; do
+  sudo ln -si $HOME/dotfiles/bin/$cmd /usr/local/bin/$cmd
+done
