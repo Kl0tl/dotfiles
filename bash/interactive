@@ -1,4 +1,4 @@
-for file in {prompt,aliases}; do
+for file in {prompt,aliases,options}; do
   source_if_readable $file
 done
 
