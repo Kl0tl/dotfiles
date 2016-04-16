@@ -1,6 +1,7 @@
 tap 'homebrew/dupes'
 tap 'homebrew/versions'
 brew 'ag'
+brew 'asciinema'
 brew 'bash'
 brew 'bash-completion2'
 brew 'coreutils'
