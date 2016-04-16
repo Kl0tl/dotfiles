@@ -19,6 +19,8 @@ source_if_readable $(brew --prefix)/etc/bash_completion.d/brew
 
 source_if_readable $(brew --prefix)/etc/bash_completion.d/git-completion.bash
 
+source_if_readable $(brew --prefix)/share/bash-completion/bash_completion
+
 function source_if_readable {
   [[ -r $1 ]] && . $1
 }

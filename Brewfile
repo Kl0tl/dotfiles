@@ -1,5 +1,7 @@
 tap 'homebrew/dupes'
+tap 'homebrew/versions'
 brew 'bash'
+brew 'bash-completion2'
 brew 'coreutils'
 brew 'git'
 brew 'grep'
