@@ -1,3 +1,5 @@
 export PATH=/usr/local/bin:$PATH
 export PATH=./node_modules/.bin:$PATH
+export PATH="$(brew --prefix coreutils)/libexec/gnubin:$PATH"
+export MANPATH="$(brew --prefix coreutils)/libexec/gnuman:$MANPATH"
 export MANPATH="$Z_DIR:$MANPATH"
