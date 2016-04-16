@@ -2,3 +2,4 @@
 
 export CLICOLOR=1
 export CLICOLOR_FORCE=1
+export GREP_OPTIONS="--color=auto"
