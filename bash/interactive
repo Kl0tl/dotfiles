@@ -1,1 +1,1 @@
-[ -r aliases ] && . aliases
+[[ -r aliases ]] && . aliases
