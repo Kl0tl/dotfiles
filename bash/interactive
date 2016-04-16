@@ -7,6 +7,9 @@ export GREP_OPTIONS="--color=auto"
 export Z_DIR="$HOME/dotfiles/z"
 source_if_readable $Z_DIR/z.sh
 
+export NVM_DIR="$HOME/dotfiles/nvm"
+source_if_readable $NVM_DIR/nvm.sh
+
 function source_if_readable {
   [[ -r $1 ]] && . $1
 }
