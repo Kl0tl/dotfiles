@@ -1,1 +1,3 @@
 [[ -r $HOME/.private ]] && . $HOME/.private
+
+export HOMEBREW_CASK_OPTS="--appdir=/Applications"
