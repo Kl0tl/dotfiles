@@ -9,6 +9,7 @@ source_if_readable $Z_DIR/z.sh
 
 export NVM_DIR="$HOME/dotfiles/nvm"
 source_if_readable $NVM_DIR/nvm.sh
+source_if_readable $NVM_DIR/bash_completion
 
 function source_if_readable {
   [[ -r $1 ]] && . $1
