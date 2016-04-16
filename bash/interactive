@@ -1,3 +1,4 @@
 [[ -r aliases ]] && . aliases
 
 export CLICOLOR=1
+export CLICOLOR_FORCE=1
