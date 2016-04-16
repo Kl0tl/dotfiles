@@ -1,5 +1,12 @@
-[[ -r aliases ]] && . aliases
+source_if_readable aliases
 
 export CLICOLOR=1
 export CLICOLOR_FORCE=1
 export GREP_OPTIONS="--color=auto"
+
+export Z_DIR="$HOME/dotfiles/z"
+source_if_readable $Z_DIR/z.sh
+
+function source_if_readable {
+  [[ -r $1 ]] && . $1
+}
