@@ -13,6 +13,8 @@ source_if_readable $NVM_DIR/bash_completion
 
 source_if_readable /usr/local/etc/bash_completion.d/npm
 
+source_if_readable $(brew --prefix)/etc/bash_completion.d/brew
+
 function source_if_readable {
   [[ -r $1 ]] && . $1
 }
