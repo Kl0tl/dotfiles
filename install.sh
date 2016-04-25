@@ -18,3 +18,5 @@ for cmd in {node,npm}; do
 done
 
 npm completion > /usr/local/etc/bash_completion.d/npm
+
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
